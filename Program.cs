@@ -1,6 +1,4 @@
-using System;
 using System.Diagnostics;
-using Microsoft.AspNetCore.Builder;
 
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
@@ -25,5 +23,4 @@ app.MapGet("/{repository}", (string repository) =>
     return repository;
 });
 
-//test
 app.Run();

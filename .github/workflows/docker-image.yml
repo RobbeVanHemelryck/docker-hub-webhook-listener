@@ -15,6 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag taltiko/pdf-merger:latest
+      run: docker build . --file Dockerfile --tag taltiko/docker-hub-webhook-listener:latest
     - name: Push the Docker image
       run: docker login -u taltiko  -p ${{secrets.DOCKER_TOKEN}} && docker push taltiko/docker-hub-webhook-listener:latest

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qmEC1ZsIpB3rSvJso+/dT65aXV3uh2wpwsD8eRkgwW8=",
+  "Source": "DockerHubWebhookListener",
+  "BasePath": "_content/DockerHubWebhookListener",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
